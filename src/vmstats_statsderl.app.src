@@ -1,0 +1,19 @@
+{application, vmstats_statsderl,
+ [{description, "A vmstats sink based on statsderl"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    statsderl
+   ]},
+  {included_applications,
+   [vmstats]},
+  {mod, {vmstats_statsderl_app, []}},
+  {env, []},
+  {modules, [vmstats_statsderl]},
+
+  {maintainers, ["Aleksei Magusev", "Andrea Leopardi"]},
+  {licenses, []},
+  {links, []}
+ ]}.

@@ -1,0 +1,8 @@
+[{<<"statsderl">>,
+  {git,"https://github.com/lpgauth/statsderl.git",
+       {ref,"8d284189f398bffd0fa3dec7a4b46460a061b158"}},
+  0},
+ {<<"vmstats">>,
+  {git,"https://github.com/elixir-addicts/vmstats.git",
+       {ref,"9b0bc8d6efd3348afb9a27f1cc354a9537522433"}},
+  0}].
